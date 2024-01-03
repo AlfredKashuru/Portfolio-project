@@ -26,7 +26,7 @@
     font-weight: 300;
     font-stretch: extra-condensed;
     font-family: fantasy;
-    cursor:move;
+    cursor:no-drop;
   }
   
   /* 4. Styling for the h3 element within the header */
@@ -218,6 +218,8 @@
   .contact-desc > p {
     margin-bottom: 1rem;
     font-size: 20px;
+    color: #244bd8;
+    font-style: italic;
   }
   
   /* 31. Styling for text input */
@@ -234,9 +236,9 @@
     padding: 10px;
     box-shadow: 0 0 25px 4px #0a15ac0f;
     margin-bottom: 12px;
-    padding:8px;
+    padding:20px;
     border-radius: 10px;
-    border:2px solid #ccc
+    border:2px solid #d41a1a
   
   }
   
@@ -244,11 +246,11 @@
   .contact-desc > form > button {
     padding: 0.7rem 2rem;
     font-weight: bold;
-    background-color: transparent;
+    background-color:#b2afc6;
     border: 1px solid rgb(0, 110, 255);
-    border-radius: 5px;
+    border-radius: 20px;
     color: rgb(0, 110, 255);
-    cursor:wait;
+    cursor:progress;
   }
   
   /* 34. Styling for the button on hover within the contact form */
@@ -278,31 +280,32 @@
     /* 37. hobbies-content */
     .Hobbies-content {
       display: flex;
-    justify-content: space-between;
+    justify-content:center;
     width: 90%;
     margin: auto;
     padding: 1.5rem;
-    height: 90vh;
+    height: 120vh;
     padding-top: 10rem !important;
     }
     
-    /* 21. Styling for the h3 element within the resume content */
+    /* 38. Styling for the h3 element within the resume content */
     .Hobbies-content p {
       color: #933009;
     }
-
-    /* 21. Styling for the li element within the hobbies content */
-    .Hobbies-content li{
-      color: hwb(0 3% 93%);
-    }
-    
-       
-  /* 21. Styling for the h3 element within the resume content */
+   
+           
+  /* 39. Styling for the h3 element within the resume content */
   .Hobbies-content  h3 {
     color: rgb(0, 110, 255);
     font-size: 4rem;
   }
-  
+  /* 40. Styling for the li element within the hobbies content */
+  .Hobbies-content li{
+    color: hwb(243 24% 32%);
+    font-style: italic;
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif
+  }
 
    
   
