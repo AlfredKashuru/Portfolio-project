@@ -172,18 +172,25 @@
   
   /* 23. Styling for the h3 element within the resume description */
   .resume-desc > h3 {
-    color: rgb(0, 110, 255);
+    color: rgb(148, 17, 229);
     margin-bottom: 1rem;
+    font-family: fantasy;
+    font-weight: 300;
   }
   
   /* 24. Styling for paragraphs within the resume description */
   .resume-desc > p {
     margin-bottom: 1rem;
+    color:#2212cc;
+    font-weight: bolder;
+  
   }
   
   /* 25. Styling for list items within the resume description */
   .resume-desc > li {
     margin-left: 1rem;
+    color:#2212cc;
+    font-weight: bolder;
   }
   
   /* 26. Styling for the contact content section */
@@ -218,8 +225,9 @@
   .contact-desc > p {
     margin-bottom: 1rem;
     font-size: 20px;
-    color: #244bd8;
+    color: #6914e1;
     font-style: italic;
+    font-weight: bolder;
   }
   
   /* 31. Styling for text input */
@@ -275,6 +283,7 @@
     width: 80%;
     margin: auto;
     text-align: right;
+    color:#2113eb;
     }
  
     /* 37. hobbies-content */
